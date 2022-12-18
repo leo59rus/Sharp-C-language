@@ -1,0 +1,12 @@
+﻿int a = 1;
+int b = 22;
+int c = 6;
+int d = 8;
+int i = 4;
+int max = a;
+if (a > max) max = a;
+if (b > max) max = b;
+if (c > max) max = c;
+if (d > max) max = d;
+if (i > max) max = i;
+Console.WriteLine("max number = " + max);
