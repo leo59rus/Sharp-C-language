@@ -17,7 +17,7 @@ Console.WriteLine("c");
 int x = xa;
 int y = xb;
 int count = 0;
-while (count < 10){
+while (count < 10000){
     int what = new Random().Next(0,3);//0,1,2
     if(what == 0){
         x = (x + xa)/2;
