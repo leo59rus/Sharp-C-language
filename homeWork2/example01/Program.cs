@@ -5,6 +5,10 @@
 // 456 -> 5
 // 782 -> 8
 // 918 -> 1
+//еще решение преобразовать с строку и выдать число по номеру ячейуи массива
+//int a = 123;
+//string str = a.ToString();
+//Console.WriteLine(str[1]);
 Console.Write("введи трёхзначное число - ");
 int number = Convert.ToInt32(Console.ReadLine());
 //Console.WriteLine(number);
